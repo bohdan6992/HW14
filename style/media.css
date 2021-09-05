@@ -1,0 +1,30 @@
+@media(max-width: 970px){
+  .header__about{
+    display: block;
+  }
+  .header__about-inner{
+    text-align: center;
+  }
+  .header__btns{
+    display: block;
+    text-align: center;
+  }
+}
+
+/* ____________________ADAPTIV MENU____________________________________ */
+
+@media (max-width: 1182px){
+  .hamburger-menu{
+    visibility: visible;
+  }
+  .menu__list{
+    display: none;
+  }
+  .menu__inner{
+    position: relative;
+    display: block;
+  }
+  .menu__logo{
+    padding-top: 22px;
+  }
+}
